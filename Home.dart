@@ -22,7 +22,7 @@ class _HomeState extends State<Home> {
   void updateWarranty(int warranty) {
     setState(() {
       motorcycle.warranty= warranty;
-      totalPrice = car.getTotalPrice();
+      totalPrice = motorcycle.getTotalPrice();
     });
   }
 
@@ -56,4 +56,5 @@ class _HomeState extends State<Home> {
               Text('Total Price: $totalPrice', style: const TextStyle(fontSize: 25.0, fontWeight: FontWeight.bold),),
             ])));
   }
+
 }
