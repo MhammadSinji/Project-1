@@ -71,7 +71,8 @@ class WarrantyWidgetState extends State<WarrantyWidget> {
   @override
   Widget build(BuildContext context) {
 
-    return Row(mainAxisAlignment: MainAxisAlignment.center, children: [
+    return Row(mainAxisAlignment: MainAxisAlignment.center, 
+      children: [
       const Text('Warranty', style: TextStyle(fontSize: 15.0),),
       Radio(
         value: 1,
@@ -99,3 +100,4 @@ class WarrantyWidgetState extends State<WarrantyWidget> {
   }
 
 }
+
