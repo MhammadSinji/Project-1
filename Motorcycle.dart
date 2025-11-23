@@ -12,7 +12,7 @@ class Motorcycle {
   int price;
   int warranty = 1;
   bool insurance = false;
-  Car(this.model, this.price);
+  Motorcycle(this.model, this.price);
 
   @override
   String toString() {
@@ -97,4 +97,5 @@ class WarrantyWidgetState extends State<WarrantyWidget> {
       const Text('5 years', style: TextStyle(fontSize: 15.0),)
     ]);
   }
+
 }
